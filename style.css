@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(pattern-background-desktop.svg);
+    background-size: cover;
+}
+
+.section{
+    width: 300px;
+}
+
+
+
+.section:hover{
+    border: 1px solid black;
+    box-shadow: black;
+}
+
+.hero{
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
+}
+.change-color{
+    color: white;
+    text-align: center;
+    
+    padding: 10px;
+}
+
+.another-background{
+    background-color: black;
+    margin: 0px;
+}
+
+.display-change{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icon{
+    width: 40px;
+}
+.small>h3{
+color: white;
+}
+.gray{
+    color: gray ;
+}
+
+.button{
+    background: darkblue;
+    color: white;
+    display: flex;
+    margin-top:  10px;
+    margin-left: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+}
+
+.button:hover{
+    color: black;
+    background-color: white;
+}
